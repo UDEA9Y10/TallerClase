@@ -1,0 +1,130 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Taller práctico de git</title>
+  <link rel="stylesheet" href="css/foundation.css" />
+  <script src="js/vendor/modernizr.js"></script>
+
+  <link rel="stylesheet" href="css/screen.css" />
+</head>
+<body>
+
+  <div class="row">
+    <div class="large-12 columns">
+      <h1>Taller práctico de <span>git</span></h1>
+      <p class="subheader">
+        Geovanny Mendoza Gonzalez<br>
+        <a href="mailto:geovanny0401@gmail.com">geovanny0401@gmail.com</a>
+      </p>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="large-12 columns">
+
+      <h2>1. Introducción</h2>
+      <div class="row">
+        <div class="large-6 medium-6 columns">
+          <p>
+            El objetivo de este taller es mostrar de una manera prática la utilización de <a href="http://git-scm.com/">git</a>, sus comandos básicos y esenciales mediante desarrollo de un proyecto real:
+          </p>
+          <p>
+            <a href="https://github.com/gmoralesc/academia" target="_blank" class="button secondary radius btn">Repositorio de github</a><br>
+            <a href="http://www.wpzoom.com/themes/academica/" target="_blank" class="button secondary radius btn">WPZOOM Template</a>
+          </p>
+        </div>
+        <div class="large-6 medium-6 columns">
+          <p>           
+            <img src="files/academia.png">            
+          </p>    
+        </div>
+      </div>
+      
+      <h2>2. Metodología</h2>
+      <p>
+        El taller esta diseñado para realizar equipos de 3 personas, cada miembro debe seleccionar un rol estos son:
+        <ol>
+          <li>Front End Web Developer</li>
+          <li>Graphic Designer</li>
+          <li>Front End Designer</li>
+        </ol>
+      </p>      
+    
+      <h2>3. Requerimientos</h2>
+      <p>Para poder realizar este taller cada miembro del equipo debe cumplir los siguientes requisitos:</p>
+      <ol>
+        <li>
+          Seleccionar el rol de cada miembro del equipo y es recomendable sentarse en el orden de los roles descritos anterioremente
+        </li>
+        <li>
+          Tener una cuenta activa de <a href="http://github.com/" target="_blank" class="radius label">github</a>
+        </li>
+        <li>
+          Instalar la última versión de <span class="radius label">git</span>
+        </li>
+        <li>
+          Conocimientos básicos del editor <span class="radius label">vi</span> de linux.
+        </li>
+        <li>
+          Seleccionar el directorio de trabajo base para el Taller
+        </li>
+        <li>
+          Configurar el nombre completo y correo electrónico (correspondiente a la cuenta de github) en git con<br>
+          <kbd>git config --global user.name "[Nombre y Apellido]"<br>
+            git config --global user.email [Correo electrónico]
+          </kbd>
+        </li>        
+      </ol>
+
+      <h2>4. Creación del repositorio</h2>
+      <p>
+        <strong>Uno</strong> de los miembros del equipo debe ser el encargado de crear el repositorio en github, el miembro del equipo que va a realizar esta tarea debe seguir los siguientes pasos:
+      </p>
+      <ol>
+        <li>
+          Ingresar a <a href="http://github.com/" target="_blank">github</a>
+        </li>
+        <li>
+          En la parte superior derecha hacer clic en el enlace <kbd>+</kbd> y seleccionar la opción <kbd>New repository</kbd>
+        </li>
+        <li>
+          En el campo <kbd>Repository name</kbd> digitar: academia y presionar el botón <kbd>Create repository</kbd>
+        </li>
+        <li>
+          En el repositorio creado hacer clic en la parte derecha en el enlace <kbd>Settings</kbd>
+        </li>
+        <li>
+          Hacer clic en la parte izquierda en el enlace <kbd>Collaborators</kbd>
+        </li>
+        <li>
+          En el campo <kbd>Type a username</kbd> digite el <strong>nombre de usuario</strong> de otro miembro del equipo y presione el botón <kbd>Add collaborator</kbd> (Repetir este paso hasta que todos los miembros del equipo queden agregados al repositorio).
+        </li>
+        <li>
+          Finalmente los otros miembros del equipo debe revisar su cuenta de correo asociada a la cuenta de github para aceptar la invitación realizada en el paso anterior.
+        </li>
+      </ol>
+      <p>
+        <div data-alert class="alert-box alert radius">
+          En el taller sustituir [nombre-de-usuario] por el <stong>nombre de usuario</stong> del miembro del equipo que creo el repositorio
+        </div>        
+      </p>
+
+      <hr>
+      <p>
+        <form data-abide action="workshop.html" class="custom">
+          <input id="checkbox1" type="checkbox" required><label for="checkbox1">He leido cuidadosamente y realizado todos los pasos antes descritos</label><br>
+          <button type="submit">Empezar</button>
+        </form>
+      </p>
+    </div>
+  </div>
+
+  <script src="js/vendor/jquery.js"></script>
+  <script src="js/foundation.min.js"></script>
+  <script>
+    $(document).foundation();
+  </script>
+</body>
+</html>
